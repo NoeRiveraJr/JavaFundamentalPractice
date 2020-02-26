@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //importing to be able to have user inputs
 
 public class HelloWorld
 {  
@@ -61,7 +61,7 @@ public class HelloWorld
    System.out.println(hello);
    
    System.out.println("Please enter 3 numbers to calculate the average"); //the use of inputs and outputs with an average method
-   Scanner input = new Scanner(System.in);
+   Scanner input = new Scanner(System.in); //creating a new scanner object to use for inputs
    System.out.print("Enter number 1: ");
    int num1 = input.nextInt();
    System.out.print("Enter number 2: ");
